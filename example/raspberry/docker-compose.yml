@@ -1,0 +1,6 @@
+services:
+  encoder:
+    build: .
+    privileged: true
+    network_mode: host
+    env_file: raspberry.env
